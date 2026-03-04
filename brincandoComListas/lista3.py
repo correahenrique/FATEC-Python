@@ -1,4 +1,4 @@
-dados = ["Henrique:DEV", "Debora:RH", "Carlos:SUP", "Ana:DEV", "Lucas:SUP", "Mariana:RH"]
+dados = ["Henrique:DEV", "Marina:RH", "Carlos:SUP", "Ana:DEV", "Lucas:SUP", "Mariana:RH"]
 time_dev = []
 time_sup = []
 i = 0
@@ -13,4 +13,5 @@ for dado in dados:
     i += 1
 
 print(f"Esses são devs: {time_dev}")
+
 print(f"Esses são suporte: {time_sup}")
