@@ -1,4 +1,4 @@
-senhas = ["12345", "vilt#2026", "senha123", "acesso#vilt_global", "fiec#7"]
+senhas = ["12345", "fiec#2026", "senha123", "acesso#global", "fiec#7"]
 seguras = []
 naoSeguras = []
 i = 0
@@ -12,5 +12,6 @@ while i < len(senhas):
     else:
         print(f"{senha}: Segura")
         seguras.append(senha)
+
 
     i += 1
