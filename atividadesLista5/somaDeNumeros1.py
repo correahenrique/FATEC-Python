@@ -1,0 +1,9 @@
+"""Soma de Números: Crie um programa que solicite ao usuário para inserir números e some esses
+números até que o usuário insira zero. Quando zero for inserido, o programa deve imprimir a soma total."""
+num = float(input("Digite um número (Digite 0 para parar): "))
+soma = 0
+while num != 0:
+    soma += num
+    print(f"vamos somando... ({soma}) não quer consitnuar? Digite 0 para parar")
+    num = float(input("Digite um número (Digite 0 para parar): "))
+print(f"O resultado ficou: {soma}")
