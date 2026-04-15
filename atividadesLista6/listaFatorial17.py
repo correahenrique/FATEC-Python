@@ -16,4 +16,5 @@ for i in numeros:
     for n in range(1, i + 1):
         f *= n
     fatoriais.append(f)
-print(fatoriais)
+print(f"Lista original: {numeros}")
+print(f"Lista de fatoriais: {fatoriais}")
