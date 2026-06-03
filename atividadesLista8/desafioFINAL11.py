@@ -16,11 +16,13 @@ def listar():
 
 def busca():
     nome = input("Digite o nome do produto: ")
+    achou = False
     for i in produtos:
         if i == nome.lower():
             print(i)
-        else:
-            print("Encontrei nao viu")
+            achou = True
+    if achou != True:
+        print("Encontrei nao viu")
 def sair():
     exit()
 
